@@ -1,0 +1,6 @@
+{
+  "version": "1.0.0",
+  "description": "Firmware update",
+  "url": "https://raw.githubusercontent.com/blkfribourg/RCBridge-Firmware/main/firmware.bin",
+  "sha256": "dc1a401da9e32f13ebba282739563b2c8ef26147631610ff49fd5fdf2ca96f59"
+}

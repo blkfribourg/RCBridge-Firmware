@@ -468,12 +468,12 @@ The RGB LED on the device shows status via color and animation:
 | **Setup** | 🔷 Cyan pulsing | Waiting for BLE configuration (power on, no config) |
 | **Normal** | 🟢 Green solid | Fully operational - all systems connected |
 | **Errors** | 🔴 Red blinking | Connection errors (WiFi/MQTT/BLE down) |
-| **OTA Download** | 🔵 Blue pulsing | Downloading firmware update |
-| **OTA Success** | 🟢 Green rapid blink | Update successful (rebooting) |
-| **OTA Failed** | 🔴 Red rapid blink | Update failed (check logs) |
+| **OTA Download** | 🌈 Rainbow cycle | Downloading firmware update (cycles through colors every 3 seconds) |
+| **OTA Success** | ⚪ White rapid blink | Update successful (rebooting) |
+| **OTA Failed** | 🟠 Orange rapid blink | Update failed (check logs) |
 | **Factory Reset** | ⚪ White rapid blink | Factory reset in progress |
 
-**Note**: When in normal gateway mode with some errors, the LED will show a red blinking pattern indicating which system failed (WiFi/MQTT/BLE).
+**Note**: When in normal gateway mode with some errors, the LED will show a red blinking pattern indicating which system failed (WiFi/MQTT/BLE). During OTA download, the LED displays a smooth rainbow animation: Red → Orange → Yellow → Green → Cyan → Blue → Purple (repeating every 3 seconds).
 
 ## Admin Commands (MQTT)
 

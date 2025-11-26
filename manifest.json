@@ -1,9 +1,6 @@
 {
-  "version": "1.0.1",
-  "url": "https://raw.githubusercontent.com/blkfribourg/RCBridge-Firmware/main/v1.0.1.bin",
-  "sha256": "92c7059222fbf98b04980996425bec8077c8aef9309fde27c1ad7cc87a0fbd70",
-  "size": 1254960,
-  "description": "Update firmware",
-  "released": "2025-11-25T23:37:35.297910",
-  "minimum_version": "1.0.0"
+  "version": "1.0.0",
+  "description": "Firmware update",
+  "url": "https://raw.githubusercontent.com/blkfribourg/RCBridge-Firmware/main/firmware.bin",
+  "sha256": "dc1a401da9e32f13ebba282739563b2c8ef26147631610ff49fd5fdf2ca96f59"
 }
